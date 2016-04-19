@@ -1,0 +1,13 @@
+Adding Your Website Files
+
+Now that your repo has been properly setup it’s time to add all of the HTML, CSS and JavaScript files that make up your website. Once you have added these to your repo you need to commit the changes. To do this you can use the following command.
+
+git commit -a -m "Adding pages"
+Note: The -a flag is shorthand for git add .
+
+Pushing Your Changes to GitHub
+
+Okay so you’ve got all your files where they need to be. The only thing left to do now is to push the new gh-pages branch up to GitHub. You do this using the git push command.
+
+git push origin gh-pages
+That’s it! Your website should now be available at http://username.github.io/repository/.
